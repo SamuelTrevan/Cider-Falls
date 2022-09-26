@@ -1,0 +1,183 @@
+
+/* .containter{
+} */
+
+html, 
+body {
+    height: 100%;
+}
+
+body{
+    background-color: #006f49;
+    color:ghostwhite;
+}
+header{
+    display: flex;
+    background-color:ghostwhite;
+    color: #006f49; 
+}
+
+.header-park-name{
+    height: 156px;
+    line-height: 156px;
+}
+
+.header-image{
+    height: 156px;
+    width: auto;
+}
+.header-title{
+    font-size: 75px;
+}
+
+h2{
+    font-size: medium;
+}
+#service-container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 10px;
+    padding: 15px;
+  } 
+
+#park-location {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        grid-column-gap: 10px;
+        padding: 15px;  
+}
+
+.location-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: auto 300px;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+        background-color:ghostwhite;
+    color: #006f49; 
+}
+
+
+/* #location--1{
+    background-color: rgb(27, 230, 213);
+    flex-basis: 2%;
+    text-align: center;
+    margin: 2%;
+    padding: 3%;
+}
+
+#location--2{
+    background-color: rgb(20, 4, 110);
+    flex-basis: 2%;
+    text-align: center;
+    margin: 2%;
+    padding: 3%;
+
+}
+#location--3{
+    background-color: rgb(230, 25, 10);
+    flex-basis: 2%;
+    text-align: center;
+    margin: 2%;
+    padding: 3%;
+
+}
+#location--4{
+    background-color: rgb(84, 189, 43);
+    flex-basis: 2%;
+    text-align: center;
+    margin: 2%;
+    padding: 3%;
+}
+#location--5{
+    background-color: rgb(168, 167, 180);
+    flex-basis: 2%;
+    text-align: center;
+    margin: 2%;
+    padding: 3%;
+}
+#location--6{
+    background-color: rgb(129, 55, 172);
+    flex-basis: 2%;
+    text-align: center;
+    margin: 2%;
+    padding: 3%;
+} */
+
+
+@media only screen and (max-width: 800px) {
+    #service-container{
+        background-color:crimson;
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* #service--1{
+    font-size: 35px;
+    font-weight: bold;
+}
+#service--2{
+    font-size: 35px;
+    font-weight: bold;
+}
+#service--3{
+    font-size: 35px;
+    font-weight: bold;
+}
+#service--4{
+    font-size: 35px;
+    font-weight: bold;
+}
+#service--5{
+    font-size: 35px;
+    font-weight: bold;
+}
+#service--6{
+    font-size: 35px;
+    font-weight: bold;
+}
+#service--7{
+    font-size: 35px;
+    font-weight: bold;
+}
+#service--8{
+    font-size: 35px;
+    font-weight: bold;
+}
+#service--9{
+    font-size: 35px;
+    font-weight: bold;
+}
+#service--10{
+    font-size: 35px;
+    font-weight: bold;
+}
+#service--11{
+    font-size: 35px;
+    font-weight: bold;
+}
+#service--12{
+    font-size: 35px;
+    font-weight: bold;
+}
+#service--13{
+    font-size: 35px;
+    font-weight: bold;
+}
+#service--14{
+    font-size: 35px;
+    font-weight: bold;
+}
+#service--15{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+ */
